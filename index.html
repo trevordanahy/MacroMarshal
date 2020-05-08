@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Build Timing</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<div id='main'>
+		<div class='timing'>
+			<div id='timercontainer'>
+				<h1 id='timer'><time>00:00:00</time></h1>
+			</div>
+			<div id='button'>
+				<button class='start bttn' onclick="Start(12000)">Start</button>
+				<button class='stop bttn' onclick='Stop()'>Stop</button>
+			</div>
+		</div>
+		<div class='build'></div>
+	</div>
+	<audio id='wookie' src='wookie.wav'></audio>
+<script src='script.js'></script>
